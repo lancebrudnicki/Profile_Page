@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.MAIN{
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+
+/* style of nav bar */
+.nav{
+    height: 60px;
+    width: 100%;
+    display: flex; 
+    display: inline-flex; 
+    background-color:black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.nav-title{
+    color: whitesmoke;
+    /* margin: 10px 10px 10px 100px; */
+}
+.nav-links{
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-links>li{
+    padding: 10px;
+}
+
+.nav-links>li>a{
+    color: whitesmoke;
+    /* text-decoration: none; */
+}
+.active{
+    font-weight: bold;
+
+}
+.btn{
+    box-shadow:rgb(39, 6, 6) 4px 4px 4px;
+    background-color: lightskyblue;
+    color: whitesmoke;
+}
+
+/* Main site */
+.MAIN{
+    display: inline-flex;
+    margin: 30px;
+}
+
+/* row 1 */
+.row1{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+/* style for profile card */
+
+.procard{
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    border-style: solid;
+    border-color: gray;
+    margin: 20px;
+    /* display: inline-block; */
+    /* position: absolute;
+    top: 100px;
+    left: 100px; */
+}
+
+.topbar{
+    background-color: #17A2B8 ;
+    width: 500px;
+    height: 70px;
+    
+}
+
+.pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: gray;
+    margin-left: 20px;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+
+}
+.procard_name{
+    margin-left: 20px;
+    font-size: 30px;
+}
+.info{
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.procard_city{
+    display: inline-block;
+}
+
+.same{
+    display:inline-block;
+}
+
+/* connections Req */
+.conreq_names{
+    display: inline-block;
+    margin: 20px;
+
+}
+.icon_pro{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+
+}
+
+.connreq_topbar{
+    background-color: #333333;;
+    width:  250px;
+    height: 50px;
+    color: white;
+}
+
+.connreq{
+    /* display: flex; */
+    background-color: whitesmoke;
+    height: 250px;
+    width:  250px;
+    border-style: double;
+    border-color: grey;
+    margin-top: 20px;
+
+}
+
+/* row 2 */
+
+.row2{
+    display: flex;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+
+
+
+}
+/* Your_connections */
+
+.your_names{
+    display: inline-block;
+
+}
+
+.icon_pro_vc{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.Connections_Requests{
+    display: inline-block;
+margin-bottom: 10px;
+
+}
+.number_two{
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+}
+
+.your_connections{
+    background-color: rgb(255, 255, 255);
+    height: 350px;
+    width:  250px;
+    border-style: double;
+    border-color: grey;
+    display: inline-flex;
+    flex-direction: column;
+    /* margin: 20px; */
+
+}
+
+.your_connections_topbar{
+    background-color: #333333;;
+    width:  250px;
+    height: 50px;
+    color: white;
+}
+
+.your_connections_data{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+}
+
+.your_connections_bot_Bar{
+    border-style: double;
+    border-color:grey;
+    height: 30px;
+    vertical-align: center;
+}
+.number-500{
+    border-radius: 50%;
+    background-color: grey;
+    display: inline-block;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 10px;
+}
+
+.view-connections{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.people{
+    padding: 10px;
+}
+.your_names{
+    text-align: center;
+    padding: 10px;
+
+
+
+}
+/* education box */
+
+.education{
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    border-color: gray;
+    margin: 20px;
+}
+
+.education_top_bar{
+    background-color: #333333;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+
+.education_header{
+    color: whitesmoke;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.education_written{
+    margin: 20px;
+}
